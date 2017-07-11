@@ -11,10 +11,16 @@ namespace IntroToOOP
         static void Main(string[] args)
         {
 
-        Cat mittens = new Cat();
+            Cat firstCat = new Cat();
 
-            mittens.Name = "Mittens";
-            Console.WriteLine(mittens.Age);
+            firstCat.Name = "Mittens";
+            // Console.WriteLine(firstCat.Age);
+
+            Cat secondCat = new Cat("Oz", 3, "Orange and white");
+            secondCat.Name = "Ozzy";
+            Console.WriteLine(secondCat.Name);
+            Console.WriteLine(secondCat.Age);
+            secondCat.Eat();
 
 
 

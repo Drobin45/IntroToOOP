@@ -27,10 +27,10 @@ namespace IntroToOOP
             get { return this.age; }
         }
 
-        //Constructor (specialized method) example
-        public Cat()
+        //Constructor (specialized method) example. This is an example of a default constructor. A default constructor takes no arguments/parameters.
+        public Cat()    
         {
-            //This is an example of a default constructor. A default constructor takes no arguments/parameters.
+            
         }
 
         public Cat(string name, int age, string furColor)
