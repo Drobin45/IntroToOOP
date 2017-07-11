@@ -82,7 +82,7 @@ namespace IntroToOOP
             Console.WriteLine("Bork bork bork!");
         }
 
-        public void Potty()
+        public double Potty()
         {
             if(crap == true)
             {
@@ -94,6 +94,7 @@ namespace IntroToOOP
                 Console.WriteLine("Your doggo needs to go! Hurry before he/she soils your carpet!");
                 weight += 1.0;
             }
+            return weight;
         }
 
         public void Cuddle()
