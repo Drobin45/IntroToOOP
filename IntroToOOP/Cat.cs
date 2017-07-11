@@ -15,11 +15,16 @@ namespace IntroToOOP
         private bool isHungry = true;
 
         //Property example
+            //This property allows for objects other than cat to access the name string.
         public string Name
         {
             get { return this.name; }
             set { this.name = value; }
+        }
 
+        public int Age
+        {
+            get { return this.age; }
         }
 
         //Constructor (specialized method) example
